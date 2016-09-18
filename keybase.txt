@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/lordaro
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lordaro.co.uk
+  * I am lordaro (https://keybase.io/lordaro) on keybase.
+  * I have a public key with fingerprint DD8A 3C3E F207 D9C6 1501  BD47 2D15 989C 8B3C D13F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101de075b20f824eda33d137957eb0d7400cfb7be57d3e795e4655598a82e97beb80a",
+            "fingerprint": "dd8a3c3ef207d9c61501bd472d15989c8b3cd13f",
+            "host": "keybase.io",
+            "key_id": "2d15989c8b3cd13f",
+            "kid": "0101de075b20f824eda33d137957eb0d7400cfb7be57d3e795e4655598a82e97beb80a",
+            "uid": "91c16d236b9fbaab7d0a223a78ca3400",
+            "username": "lordaro"
+        },
+        "service": {
+            "hostname": "lordaro.co.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1473026885,
+    "expire_in": 157680000,
+    "prev": "5e90f385ba11ed653b6a01da512c80fe28894390e68532c20f9e3d469f7d0da2",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIgAnicrVJbSBRRGN71Vgqm0eWhBGuE7SbLmZmdmz31EPqQaaQIqS3nzDmzDms7
+6+zs5pWki4IPERhaaoEX6P7UBSkRV5Qyl2ARMkLJQLAEs1IqkqgzUg9Bj52Xw/nO
+933/9//8Y+mJjjSnf9HdJr5zep2T0SthR1ms+3ADgwxcx+Q1MH6yfpFqTEKW169j
+Jo8BLGAxAZKAOKDJnIdgyPOY5SVFkAgCWPIAoGpIQkSQME8oTDyiIAiKDGWOKBRH
+MoBMLqPpAR8xg6YesKgtxjLkVZ5oHJCwooqsAFiEPRKHWSpVVBnxKq2iUWGVEbIV
+NByCIeLWDYrRh3c93j/4/zl3eN1OYVVWxBwvIkVDECIJA8hxPJRkFfLUyiaGiBmA
+pwhlVxsmhqbBNOUyFIzoKrHnajfyN8GtGu6wn2qDpmEZqlFNv6osKxjKs6VWXdDm
+nibI+9vFi/QApnOkiggxQ7oRYPJYylQt3bZlPRIPOFGWhVyG1AZ1k3h1myFIogzo
+seuQCLUUiAI0XhYQZFmCRYFHIqTjggLLqTLQCCfLiodXABFlgedUOkGF8NgjKhrt
+G0OOsfuqCRh2SZoT+qhnSPcFoBU2CdM0OlKR5HCmOVKSE+wFc6SlZv5ZuxcLG35s
+fvllx/hA+f6MpVvbBlPuPNsZr778+G3sSWVm88CQcXX4XqShpTgroVQ90YbXGn1T
+9f23kzd6zwXVD/2D89CXfTz5evfcpxN7d7W+eX2JfGsazk6a6osJrZ3Pix81rs64
+9rlqz7imAXdjz7RTCzcsvu+JFQkpoZq1sfSOiyXun66hRHW8o/Lg1IXVrjYuf3Zr
+4Xap88Dn0ZbF78idfC0ro8iZUdL2VXSOlrUu9n2M9ITrj2ipy/HGs80FM0psZKJ9
+5bzr5OB0fe9a/nyHozfeOP9gJh69yfqjrvaj4sOcnsm5TXcPlRfkHFt4mlQYLd1t
+bVmZ9VYspU+8Wr4f7foF6H9Evw==
+=yz/p
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lordaro
+
+==================================================================
+

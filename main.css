@@ -1,0 +1,110 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700i';
+/* Structural */
+body {
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+	margin: auto 0px;
+}
+
+main > section {
+  padding: 30px 0px;
+  width: 100%;
+}
+
+nav {
+}
+
+nav ul {
+	list-style: none;
+	display: inline-block;
+	padding: 0px;
+	margin: auto;
+}
+
+nav ul li {
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+nav ul li a img {
+	width: 100%;
+}
+
+.columns {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.columns > section {
+	flex: 1 1 auto;
+	flex-basis: 400px;
+}
+
+.columns .logo-cont {
+	display: table-cell;
+	vertical-align: middle;
+	width: 300px;
+	height: 150px;
+}
+
+.columns .logo {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.columns .name {
+	margin-bottom: 0px;
+}
+
+.columns .title {
+	margin: 0px;
+}
+
+.columns .when {
+	margin-top: 0px;
+}
+
+footer {
+  border-top: 2pt solid rgba(0, 0, 0, 0.12);
+  text-align: right;
+  width: 100%;
+}
+
+/* Style choices */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  color: #333;
+  background-color: #F7F7EE;
+}
+
+footer {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.columns .title {
+	font-size: 18px;
+}
+
+.columns .when {
+	color: rgba(0, 0, 0, 0.32);
+}
+
+a {
+  color: #3b84c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3667c7;
+}
