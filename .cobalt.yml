@@ -1,0 +1,8 @@
+name: LordAro
+description: Wobsite
+source: ./
+dest: htdocs
+drafts: _drafts
+rss: rss.xml
+link: https://lordaro.co.uk
+ignore: [".git", "build"]
