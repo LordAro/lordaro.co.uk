@@ -4,33 +4,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
 
-	<title>{{ title | append: " | LordAro" }}</title>
+    <title>{{ title | append: " | LordAro" }}</title>
 
     <link rel="stylesheet" href="/assets/main.css" type="text/css" />
     <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="RSS" />
   </head>
   <body data-route={{ route }}>
-      <header>
-      <h2>LordAro</h2>
-	  <img id="logo" src="/assets/lordaro.png" />
+    <header>
+      <a style="color: inherit;" href="/"><h2>LordAro</h2></a>
+      <a href="/"><img id="logo" src="/assets/lordaro.png" /></a>
       <p>
       Charles Pigott. Devops type.<br />
-	  Commonly found shouting at technology.<br />
-	  <a href="/">Home</a> | <a href="/about.html">About</a> <!-- !!! -->
+      Commonly found shouting at technology.<br />
+      <a href="/about.html">About</a> <!-- !!! -->
       </p>
       <nav>
         <ul>
           <li><a href="https://twitter.com/LordAro"><img alt="Twitter" src="/assets/twitter.svg" /></a></li>
           <li><a href="https://github.com/LordAro"><img alt="GitHub" src="/assets/mark-github.svg" /></a></li>
-          <li><a href="mailto:coming-soon@example.com"><img alt="Email" src="/assets/email.svg" /></a></li>
+          <li><a href="mailto:lordaro+site@lordaro.co.uk"><img alt="Email" src="/assets/email.svg" /></a></li>
           <li><a href="https://keybase.io/lordaro"><img alt="Keybase" src="/assets/lock.svg" /></a></li>
         </ul>
       </nav>
-      </header>
-	  <main>
-	    <h1 id="title">{{ title }}</h1>
-		{% if date %}<h4 id="postdate">{{ date | date: "%e %B, %Y" }}</h4>{% endif %}
-        {{ content }}
-      </main>
+    </header>
+    <main>
+      <h1 id="title">{{ title }}</h1>
+      {% if date %}<h4 id="postdate">{{ date | date: "%e %B, %Y" }}</h4>{% endif %}
+      {{ content }}
+    </main>
   </body>
 </html>
