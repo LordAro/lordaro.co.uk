@@ -1,6 +1,5 @@
-extends: default.liquid
-
 title: About
+layout: default.liquid
 ---
 I write some things occasionally.
 

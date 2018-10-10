@@ -1,0 +1,19 @@
+site:
+  title: LordAro
+  description: Wobsite
+  base_url: https://lordaro.co.uk
+  data: ~
+source: ./
+destination: htdocs
+ignore:
+  - .git
+  - htdocs
+pages:
+  default: {}
+posts:
+  title: ~
+  dir: posts
+  drafts_dir: _drafts
+  rss: rss.xml
+  default:
+    layout: default.liquid

@@ -1,7 +1,4 @@
-extends: default.liquid
-
 title: Compiling older glibc versions
-date: 26 August 2018 21:30:00 +1000
 ---
 
 I recently had need to compile glibc 2.5 on an up to date system. This article explains why, what, and how.

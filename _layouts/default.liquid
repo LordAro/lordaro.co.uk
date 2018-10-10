@@ -4,12 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
 
-    <title>{{ title | append: " | LordAro" }}</title>
+    <title>{{ page.title | append: " | LordAro" }}</title>
 
     <link rel="stylesheet" href="/assets/main.css" type="text/css" />
     <link rel="alternate" href="/rss.xml" type="application/rss+xml" title="RSS" />
   </head>
-  <body data-route={{ route }}>
+  <body>
     <header>
       <a style="color: inherit;" href="/"><h2>LordAro</h2></a>
       <a href="/"><img id="logo" src="/assets/lordaro.png" /></a>
@@ -28,9 +28,9 @@
       </nav>
     </header>
     <main>
-      <h1 id="title">{{ title }}</h1>
-      {% if date %}<h4 id="postdate">{{ date | date: "%e %B, %Y" }}</h4>{% endif %}
-      {{ content }}
+      <h1 id="title">{{ page.title }}</h1>
+      {% if page.published_date %}<h4 id="postdate">{{ page.published_date | date: "%e %B, %Y" }}</h4>{% endif %}
+      {{ page.content }}
     </main>
   </body>
 </html>
