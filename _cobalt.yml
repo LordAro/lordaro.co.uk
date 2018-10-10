@@ -9,7 +9,8 @@ ignore:
   - .git
   - htdocs
 pages:
-  default: {}
+  default:
+    layout: default.liquid
 posts:
   title: ~
   dir: posts
