@@ -98,6 +98,6 @@ a:hover {
   color: #3667c7;
 }
 
-code {
+code, pre {
   white-space: pre-wrap;
 }
